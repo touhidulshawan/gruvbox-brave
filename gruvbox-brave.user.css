@@ -1,0 +1,143 @@
+/* ==UserStyle==
+@name         Brave Search
+@version      0.1 
+@namespace    github.com/touhidulshawan/gruvbox-brave
+@descriptions Gruvbox colorscheme for Brave Search
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("brave.com") {
+:root {
+    --black: #1d2021,
+    --black2: #282828,
+    --black3: #504945,
+    --red: #cc241d,
+    --green: #b8bb26,
+    --yellow:#d79921,
+    --blue:#458588,
+    --purple: #b16286,
+    --aqua: #689d6a,
+    --orange: #d65d0e,
+    --white: #ebdbb2,
+}
+
+body {
+    background: #282828;
+    color: #ebdbb2;
+}
+
+/*link */
+a {
+    color: #458588 !important;
+}
+.h.svelte-1dihpoi .url.svelte-1dihpoi {
+    color: #458588;
+}
+.h.svelte-1dihpoi:visited .url.svelte-1dihpoi {
+    color: #b8bb26;
+}
+
+.result-cluster.svelte-1441j5q a.svelte-1441j5q {
+    color: #458588;
+}
+
+header.svelte-1og62gc {
+    background-color: #282828 !important;
+}
+
+.navbar-tabs.svelte-1g2q3es.svelte-1g2q3es {
+    background-color: #282828 !important;
+}
+
+/*Search*/
+#searchform.svelte-az0yxv.svelte-az0yxv {
+    background: #282828;
+    color: #ebdbb2;
+}
+
+#clear-query-wrapper {
+    background: #282828;
+}
+
+.suggestion.svelte-az0yxv.svelte-az0yxv:hover,
+.suggestion.svelte-az0yxv.svelte-az0yxv:focus {
+    background: #1d2021;
+}
+
+#clear-query-wrapper > svg {
+    color: #504945;
+}
+
+#clear-query-wrapper::after {
+    background: #282828;
+}
+
+#submit-button.svelte-az0yxv.svelte-az0yxv {
+    background: #504945;
+    color: #d65d0e;
+}
+
+#submit-button.svelte-az0yxv.svelte-az0yxv:hover,
+#submit-button.svelte-az0yxv.svelte-az0yxv:focus {
+    background: #b8bb26;
+    color: #282828;
+}
+
+.suggestions.svelte-az0yxv.svelte-az0yxv {
+    background: #282828 !important;
+}
+
+/* card */
+.snippet.svelte-1ckzfks.svelte-1ckzfks:not(.no-bg) {
+    background: #282828;
+    color: #ebdbb2;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    margin: 25px 0px;
+    border-radius: 4px !important;
+}
+
+.card.svelte-ch1oey.svelte-ch1oey {
+    background: #d65d0e;
+}
+
+h2.svelte-xt2qcd {
+    color: #1d2021;
+}
+cite.svelte-1e00lrd {
+    color: #fbf1c7;
+}
+
+.card.svelte-ch1oey .card-footer.svelte-ch1oey {
+    color: #ebdbb2;
+}
+
+.slide-button.svelte-ruk1t2.svelte-ruk1t2 {
+    background: #282828;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.btn--filled.svelte-1ajnjgq {
+    background: #d65d0e;
+    transition: all 0.3s ease-out;
+}
+
+.btn--filled.svelte-1ajnjgq:hover,
+.btn--filled.svelte-1ajnjgq:focus {
+    background: #d79921;
+}
+
+.btn--filled {
+    color: #1d2021 !important;
+}
+
+.chip.svelte-1manyk8.svelte-1manyk8 {
+    background: #1d2021;
+}
+
+.infobox-header-loc.svelte-8ly6dm .infobox-thumbnail.svelte-8ly6dm {
+    background: #282828;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+}
