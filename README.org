@@ -4,7 +4,7 @@
 #+DATE: 2023-12-08 Fri
 #+OPTIONS: toc:2
 
-[[file:cover.png][cover]]
+[[./cover.png]]
 
 Gruvbox Dark theme for [[https://search.brave.com][Brave Search]] based on [[https://github.com/morhetz/gruvbox][morhetz]] gruvbox colorscheme
 
